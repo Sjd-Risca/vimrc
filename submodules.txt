@@ -12,3 +12,10 @@ git rm asubmodule
 
 = UPDATE
 git submodule foreach git pull origin master
+
+= CLONE with SUBMODULE
+In already cloned repository:
+git submodule update --init --recursive
+
+for cloning from zero:
+git clone --recursive ssh://path
