@@ -1,0 +1,2 @@
+Konsole theme
+pylint (for python checking with syntastic)

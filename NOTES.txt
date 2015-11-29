@@ -29,3 +29,21 @@ _bookmarks_
 
 _Nerdtree-git-plugin_
 Show the file git state
+
+
+
+** GIT **
+git-vim e gitv
+
+ :Gstatus => show "git status"
+ :Gitv    => clone of gitk
+
+
+** Syntastic **
+Autocheck of errors when saving a file.
+
+
+** GRAPHICS **
+If using solarize theme on terminal like konsole:
+https://github.com/phiggins/konsole-colors-solarized
+(as described also here http://superuser.com/questions/423709/vim-how-to-configure-solarized-colorscheme-in-konsole)
