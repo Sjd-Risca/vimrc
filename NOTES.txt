@@ -26,3 +26,6 @@ _bookmarks_
  B  => visualizza/nascondi bookmarks
  :Bookmark myname => crea un bookmark di nome myname del nodo dove ho il cursore
  D  => delete current bookmark
+
+_Nerdtree-git-plugin_
+Show the file git state
