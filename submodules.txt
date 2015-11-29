@@ -1,0 +1,14 @@
+How to deal with submodules.
+
+= ADD a repository:
+
+git submodule add $gitpath $localpath
+
+
+= RM submodule:
+
+git submodule deinit asubmodule
+git rm asubmodule
+
+= UPDATE
+git submodule foreach git pull origin master
