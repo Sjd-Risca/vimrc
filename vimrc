@@ -10,6 +10,7 @@ syntax on
 filetype plugin indent on
 
 au BufNewFile,BufRead *.html,*.htm,*.shtml,*.stm,*.sls set ft=jinja
+au BufNewFile,BufRead *.moin setf moin
 
 """""""""""""""""""""
 " Programming

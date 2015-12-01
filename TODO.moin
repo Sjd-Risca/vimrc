@@ -1,0 +1,6 @@
+= Plugins to install =
+https://github.com/easymotion/vim-easymotion
+MRU: http://www.vim.org/scripts/script.php?script_id=521
+buffers: http://www.vim.org/scripts/script.php?script_id=42a ([[http://stackoverflow.com/questions/1649187/vim-minibufexpl-versus-bufexplorer-plugins|which is best]])
+http://www.vim.org/scripts/script.php?script_id=3736 ctrlP: advance search between files and tags
+ 
