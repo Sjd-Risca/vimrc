@@ -1,21 +1,31 @@
 How to deal with submodules.
 
-= ADD a repository:
-
+= ADD a repository =
+{{{
 git submodule add $gitpath $localpath
+}}}
 
-
-= RM submodule:
-
+= RM submodule =
+{{{
 git submodule deinit asubmodule
 git rm asubmodule
-
-= UPDATE
+}}}
+= UPDATE =
+{{{
 git submodule foreach git pull origin master
+}}}
 
-= CLONE with SUBMODULE
+== Check for update ==
+{{{
+git submodule foreach git fetch origin master
+git submodule foreach git diff HEAD origin/master
+}}}
+= CLONE with SUBMODULE =
 In already cloned repository:
+{{{
 git submodule update --init --recursive
-
+}}}
 for cloning from zero:
+{{{
 git clone --recursive ssh://path
+}}}
