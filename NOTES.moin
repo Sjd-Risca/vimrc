@@ -46,6 +46,10 @@ Main plugins: __git-vim__ e __gitv__.
 == Syntastic ==
 Autocheck of errors when saving a file.
 
+{{{:SyntasticToggleMode}}} you can toggle Syntastic into passive mode, which will disable auto-checking. You can then check a file by running {{{:SyntasticCheck}}} instead.
+
+For more infos:
+{{{:help syntastic-commands}}}
 
 = GRAPHICS =
 If using solarize theme on terminal like konsole:
