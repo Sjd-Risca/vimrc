@@ -64,6 +64,8 @@ Usage:
   * ''x'': zoom-in and zoom-out
   * ''+'' or ''-'': open/close a fold (''*'' or ''='' for opening/closing all).
 For more options see [[http://vim-taglist.sourceforge.net/manual.html|the manual]].
+
+''installation notes'': installed from zip, no tracking on repository. 
 = GRAPHICS =
 If using solarize theme on terminal like konsole:
 [[https://github.com/phiggins/konsole-colors-solarized|konsole solarized colors]]
