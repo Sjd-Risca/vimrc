@@ -29,6 +29,11 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_check_on_w = 1
 nnoremap <silent> <F5> :SyntasticCheck<CR>
 
+" Taglist
+let Tlist_Use_Right_Window = 1
+let Tlist_Compact_Format = 1
+let Tlist_Auto_Highlight_Tag = 1
+let Tlist_Auto_Update = 1
 
 
 """""""""""""""""""""
