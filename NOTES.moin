@@ -1,3 +1,4 @@
+<<TableOfContents()>>
 Special configuration and usage of installed plugins.
 
 = NERDTREE =
@@ -51,6 +52,15 @@ Autocheck of errors when saving a file.
 For more infos:
 {{{:help syntastic-commands}}}
 
+== Taglist ==
+'''Requirements''': ctags install on system.
+
+Usage:
+ * {{{:TlistOpen}}} for opening tag window, then
+  * ''scape'': get infos about function
+  * ''enter'': go to function
+  * ''ctl+t'': go back
+  * ''ctl-]'': go to function
 = GRAPHICS =
 If using solarize theme on terminal like konsole:
 [[https://github.com/phiggins/konsole-colors-solarized|konsole solarized colors]]
