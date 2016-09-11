@@ -33,6 +33,12 @@ To launch it:
  * {{{:Bookmark myname}}}: crea un bookmark di nome myname del nodo dove ho il cursore
  * '''D'''  => delete current bookmark
 
+== Other options ==
+To hide some files:
+{{{
+let NERDTreeIgnore = ['\.pyc$']
+}}}
+
 == Nerdtree-git-plugin ==
 Show the file git state inside of Nerdtree.
 
