@@ -11,7 +11,7 @@ filetype plugin indent on
 set modeline
 set modelines=5
 
-au BufNewFile,BufRead *.html,*.htm,*.shtml,*.stm,*.sls set ft=jinja
+"au BufNewFile,BufRead *.html,*.htm,*.shtml,*.stm,*.sls set ft=jinja
 au BufNewFile,BufRead *.moin setf moin
 
 """""""""""""""""""""
