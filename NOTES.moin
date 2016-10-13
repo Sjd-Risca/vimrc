@@ -72,6 +72,14 @@ Usage:
 For more options see [[http://vim-taglist.sourceforge.net/manual.html|the manual]].
 
 ''installation notes'': installed from zip, no tracking on repository. 
+
+== Tagbar ==
+Source: [[https://github.com/majutsushi/tagbar|Github]].
+
+Similar to Taglist, but more visual. Usufull for help browsing code.
+
+Now opening with F8.
+
 = GRAPHICS =
 If using solarize theme on terminal like konsole:
 [[https://github.com/phiggins/konsole-colors-solarized|konsole solarized colors]]

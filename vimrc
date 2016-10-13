@@ -35,6 +35,9 @@ let Tlist_Compact_Format = 1
 let Tlist_Auto_Highlight_Tag = 1
 let Tlist_Auto_Update = 1
 
+" tagbar
+nmap <F8> :TagbarToggle<CR>
+
 " NERDtree
 let NERDTreeIgnore = ['\.pyc$']
 
