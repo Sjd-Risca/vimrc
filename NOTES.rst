@@ -1,7 +1,6 @@
-.. toctree::
-   :maxdepth: 2
-   
-Configuration and usage notes on the installed plugins.
+Configuration and usage notes about the installed plugins.
+
+.. contents:: :local:
 
 NERDTREE
 ========
