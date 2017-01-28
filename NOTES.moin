@@ -8,12 +8,17 @@ To launch it:
 {{{
 :NERDTree
 }}}
+or (if you want the same structure as a previous one):
+{{{
+:NERDTreeMirror
+}}}
 == Main functions ==
  * '''m''': menu, permette di creare nuove cartelle o spostare file
 ----
  * '''o''': open file
  * '''s''': open with vsplit
- * '''go/s''': go open (open file but stay on nerdtree)
+ * '''i''': open with split
+ * '''go/s/i''': go open (open file but stay on nerdtree)
  * '''t''': open in new tab
  * '''T''': open in new tab but keep focus on current
 ----
@@ -23,6 +28,7 @@ To launch it:
  * '''O''': open children directory recursively
 ----
  * '''A''': temporaly maximize the NERDTree window
+ * '''R''': refresh the tree
  * '''q''': close NERTree window
 ----
  * '''I''': show hidden files
