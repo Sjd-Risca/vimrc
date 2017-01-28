@@ -26,16 +26,25 @@ Main functions
 --------------
 
 * ``m``: menu, permette di creare nuove cartelle o spostare file
+
+----
+
 * ``o``: open file
 * ``s``: open with vsplit
 * ``i``: open with split
 * ``go/s/i``: go open (open file but stay on nerdtree)
 * ``t``: open in new tab
 * ``T``: open in new tab but keep focus on current
+
+----
+
 * ``C``: change the rootdir to current
 * ``p``: go to parent directory
 * ``x``: close parent directory
 * ``O``: open children directory recursively
+
+----
+
 * ``A``: temporaly maximize the NERDTree window
 * ``R``: refresh the tree
 * ``q``: close NERTree window
@@ -92,12 +101,13 @@ Usage:
 
 * ``:TlistOpen`` for opening tag window, then
 
+
  - ``scape``: get infos about function
  - ``enter``: go to function
  - ``ctl+t``: go back
  - ``ctl-]``: go to function
  - ``x``: zoom-in and zoom-out
- - ``+`` or ''-'': open/close a fold (''*'' or ''='' for opening/closing all).
+ - ``+`` or ``-``: open/close a fold (``*`` or ``=`` for opening/closing all).
 
 For more options see `the manual <http://vim-taglist.sourceforge.net/manual.html>`_.
 
