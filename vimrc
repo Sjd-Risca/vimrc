@@ -41,9 +41,10 @@ nmap <F8> :TagbarToggle<CR>
 " NERDtree
 let NERDTreeIgnore = ['\.pyc$']
 
-"""""""""""""""""""""
+" ===============================================
 " Graphic settings
-" Required on terminal with solarized themes
+" ===============================================
+" If terminal is missing a solarized theme go for 256:
 "let g:solarized_termcolors=256
 "set t_Co=256
 set t_Co=16
@@ -53,6 +54,17 @@ set background=dark
 colorscheme solarized
 
 " Airline
-let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme='solarized'
+let g:airline_left_sep = '▶'
+let g:airline_right_sep = '◀'
+" tabline (top)
+let g:airline#extensions#tabline#enabled=1
+let g:airline#extensions#tabline#show_buffers=1
+let g:airline#extensions#tabline#excludes=['NERD_tree', 'NERD_tree_1']
+let g:airline#extensions#tabline#formatter='unique_tail_improved'
+let g:airline#extensions#tabline#show_close_button=0
+let g:airline#extensions#tabline#ignore_bufadd_pat='/\c/*nerd_tree*|tagbar|taglist/'
+let g:airline#extensions#tabline#right_sep = ''
+let g:airline#extensions#tabline#right_alt_sep = '|'
 set laststatus=2
 
