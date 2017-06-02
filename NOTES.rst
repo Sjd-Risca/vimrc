@@ -73,12 +73,19 @@ Show the file git state inside of Nerdtree.
 
 GIT
 ===
-Main plugins: ``git-vim`` e ``gitv``.
+Main plugins: ``fugitive-vim`` e ``gitv``.
+
+``gitv`` is a clone of *gitk*. Launch it with ``:Gitv``.
+
+With ``fugitive-vim`` its possible to have direct access to ``git``. For usage:
 
 .. code::
 
  :Gstatus => show "git status"
- :Gitv    => clone of gitk
+ :Gadd .  => add all files
+ :Gpush   (and so on)
+ :Gdiff
+ :Git <git full command>
 
 Programming
 ===========
