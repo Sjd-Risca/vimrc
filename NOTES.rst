@@ -44,7 +44,7 @@ Main functions
 
 ----
 
-* ``A``: temporaly maximize the NERDTree window
+* ``A``: temporarily maximize the NERDTree window
 * ``R``: refresh the tree
 * ``q``: close NERTree window
 * ``I``: show hidden files
@@ -123,12 +123,12 @@ Tagbar
 ++++++
 Source: `Github <https://github.com/majutsushi/tagbar>`_.
 
-Similar to Taglist, but more visual. Usufull for help browsing code.
+Similar to Taglist, but more visual. Useful for help browsing code.
 
 Now opening with ``F8``.
 
 GRAPHICS
 ========
-If using solarize theme on terminal like konsole:
+If using solarized theme on terminal like konsole:
 `konsole solarized colors <https://github.com/phiggins/konsole-colors-solarized>`_
 (as described also `here <http://superuser.com/questions/423709/vim-how-to-configure-solarized-colorscheme-in-konsole>`_)
