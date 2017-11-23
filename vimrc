@@ -41,6 +41,21 @@ nmap <F8> :TagbarToggle<CR>
 " NERDtree
 let NERDTreeIgnore = ['\.pyc$']
 
+" youcompleteme
+let g:ycm_autoclose_preview_window_after_completion=1
+
+"""""""""""""""""""""
+" language specific "
+""""""""""""""""""""""
+"define BadWhitespace before using in a match
+highlight BadWhitespace ctermbg=red guibg=darkred
+autocmd ColorScheme <buffer> highlight BadWhitespace ctermbg=red guibg=darkred
+
+" python
+
+" flag unwanted spaces and tabs
+au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\t\+\|\s\+$/
+
 " ===============================================
 " Graphic settings
 " ===============================================
